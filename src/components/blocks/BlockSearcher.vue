@@ -10,9 +10,16 @@
 </template>
 
 <script>
+    import HttpController from '@/components/controller/HttpController.js'
 
+    
     export default {
         name: 'BlockSearcher',
+        mounted() {
+            HttpController.get('/blocks').then(response => {
+                this.blocks = response.data;
+            })
+        },
         data() {
             return {
                 path: null
