@@ -6,7 +6,7 @@
             </a>
 
             <div class="side">
-                    <div class="side-item"><a href="/block-searcher">Search block</a></div>
+                    <div class="side-item"><a href="/search">Search block</a></div>
                     <div class="side-item"><a href="/transactions">Transactions</a></div>
                     <div class="side-item"><a href="/wallets">Search wallet</a></div>                
             </div>
