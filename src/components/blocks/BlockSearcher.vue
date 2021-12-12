@@ -3,7 +3,7 @@
         <div class="container text-top background-block">
             <label for="blockPicker" class="form-label">Input block height
                 <input type="text" id="blockPicker" class="form-control" v-model="height">
-                <button v-on:click="findBlock(height)" class="btn btn-outline-secondary" type="submit">Find wallet</button>
+                <button v-on:click="findBlock(height)" class="btn btn-outline-secondary" type="submit">Find block</button>
             </label>
         </div>
     </main>
