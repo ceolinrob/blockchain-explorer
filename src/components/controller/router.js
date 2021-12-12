@@ -40,7 +40,7 @@ const routes = [
         component: TransactionHash
     },
     {
-        path: '/block-search/',
+        path: '/search/',
         component: BlockSearcher
     },
     {
