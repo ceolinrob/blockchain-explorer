@@ -3,7 +3,7 @@
         <div class="container">
             <div class="text-top">Latest ten blocks</div>
 
-            <table class="table table-secondary col-md-12">
+            <table class="table table-secondary table-striped col-md-12">
                 <thead>
                     <tr scope="col">
                         <th>Heigth</th>
@@ -31,8 +31,6 @@
         mounted() {
             HttpController.get('/blocks').then(response => {
                 this.blocks = response.data;
-                console.log(this.blocks);
-                console.log(this.$route);
             })
         },
         data() {
@@ -53,9 +51,6 @@
         font-size: 12px;
     }
 
-    table a:visited, table a:link, table a:active, table a:hover, a{
-        color: #0000EE;
-    }
     table a:hover{
         opacity: 0.5;
     }

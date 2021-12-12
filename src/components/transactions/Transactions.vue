@@ -3,7 +3,7 @@
         <div class="container">
             <div class="text-top">Latest ten transactions</div>
 
-            <table class="table table-secondary col-md-12">
+            <table class="table table-secondary table-striped col-md-12">
                 <thead>
                     <tr scope="col">
                         <th>Type</th>
@@ -35,7 +35,6 @@
         mounted() {
             HttpController.get('/transactions').then(response => {
                 this.transactions = response.data;
-                console.log(this.transactions);
             })
         },
         data(){
@@ -47,7 +46,7 @@
 </script>
 
 <style scoped>
-.text-top{
+    .text-top{
         color: var(--color-text-light);
         font-size: 22px;
     }

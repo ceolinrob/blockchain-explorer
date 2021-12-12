@@ -3,7 +3,6 @@
     --color-background-nav: #2B3D50;
     --color-background-home: #758596;
     --color-text-light: #EDEDED;
-    --color-text-little: #FF5555;
     --color-text-dark: #3D3D3D;
 }
 
@@ -19,9 +18,8 @@ html, body {
 }
 
 a:visited, a:link, a:active, a:hover, a {
-    text-decoration: none;
     transition: 0.2s opacity;
-    color: var(--color-text-light);
+    color: rgb(98, 87, 255);
 }
 
 a:hover {
